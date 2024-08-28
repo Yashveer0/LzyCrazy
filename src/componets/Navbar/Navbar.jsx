@@ -36,7 +36,7 @@ function Navbar() {
           </div>
 
           {/* Navbar Links */}
-          <div className={`md:flex items-center justify-end w-full ${isOpen ? 'block' : 'hidden'} w-full md:w-auto`}>
+          <div className={`md:flex items-center justify-end w-full ${isOpen ? 'block' : 'hidden'} space-x-[15rem] w-full md:w-auto`}>
             <ul className={`flex ${isOpen ? "space-y-6" : "md:space-x-12"} flex-col md:flex-row md:space-x-12 text-gray-800 mt-4 md:mt-0`}>
               <li className="flex flex-col items-center font-bold">
                 <img src={Home} alt="Home" className="h-6 mb-1" />
@@ -52,7 +52,7 @@ function Navbar() {
               </li>
             </ul>
 
-            <ul className={`flex ${isOpen ? "space-y-6" : "md:space-x-12"} flex-col  absolute right-4 md:flex-row md:space-x-6 text-gray-800 mt-4 md:mt-0`}>
+            <ul className={`flex ${isOpen ? "space-y-6" : "md:space-x-12"} flex-col   md:flex-row md:space-x-6 text-gray-800 mt-4 md:mt-0`}>
               <li className="flex flex-col items-center font-bold">
                 <img src={Response} alt="Response" className="h-6 mb-1" />
                 <p className={`text-center ${isOpen ? "hidden " : " inline"}  whitespace-nowrap`}>Response</p>
