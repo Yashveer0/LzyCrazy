@@ -52,7 +52,7 @@ function Navbar() {
               </li>
             </ul>
 
-            <ul className={`flex ${isOpen ? "space-y-6" : "md:space-x-12"} flex-col md:ml-[19rem] md:flex-row md:space-x-6 text-gray-800 mt-4 md:mt-0`}>
+            <ul className={`flex ${isOpen ? "space-y-6" : "md:space-x-12"} flex-col  absolute right-4 md:flex-row md:space-x-6 text-gray-800 mt-4 md:mt-0`}>
               <li className="flex flex-col items-center font-bold">
                 <img src={Response} alt="Response" className="h-6 mb-1" />
                 <p className={`text-center ${isOpen ? "hidden " : " inline"}  whitespace-nowrap`}>Response</p>
